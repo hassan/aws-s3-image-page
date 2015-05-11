@@ -7,13 +7,18 @@ Create a single web page (index.html) to view an unstructured, unlabeled collect
 
 Inputs
 ------
-1. A valid existing s3 bucket name 
+1. A valid existing s3 bucket name
 2. The absolute path of a local directory of images (GIF, PNG, JPG, JPEG)
 
 Outputs
 -------
 1. Images are uploaded to the bucket (but old images are ignored).
 2. An ```index.html``` page with image tags for the uploaded files.
+
+Running
+-------
+
+The ```bin/refresh.rb``` contains defaults for my system locations and buckets, so if you use this, you'll want to change those :-)
 
 Requirements
 ------------
